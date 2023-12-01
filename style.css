@@ -15,14 +15,17 @@ body{
         background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 }
 
-.heading{
+#heading{
     display: flex;
     justify-content: center;
     color: rgb(5, 95, 89);
 }
 .sub_heading{
     text-align: center;
+    
 }
+
+
 .nav_bar{
     font-size: 20px;
   border-bottom: 1px solid aqua;
@@ -85,13 +88,13 @@ img{
 }
 
 /* Clear floats after the columns */
-.row:after {
+#row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.unorder_list{
+#unorder_list{
     
     color: rgb(56, 55, 55);
 }
@@ -103,14 +106,22 @@ img{
 .list{
     padding: 5px 0px;
 }
-.footer{
+.list>a{
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+}
+.list>a:hover{
+    border-bottom: 1px solid rgb(56, 55, 55);
+    
+}
+#footer{
     display: flex;
     justify-content: flex-start;
     height: auto;
     flex-direction: column;
     margin-top: 50px;
     background-color: #0093E9;
-        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     padding: 20px;
     color: rgb(56, 55, 55);
     
